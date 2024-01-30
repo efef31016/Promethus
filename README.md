@@ -1,6 +1,6 @@
 # ETL Monitor
 
-This monitoring service can be integrated into various scenarios; first, imitate the execution sequence of 'Monitor.py' to use it. (Of course, you can fix the response to show system info by modifying 'ResponseFormat.py')
+This monitoring API can be integrated into various scenarios in airflow; first, imitate the execution sequence of 'Monitor.py' to use it. (Of course, you can fix the response to show system info by modifying 'ResponseFormat.py')
 
 ### Definition of Format
 - Key (Pure Text) - Value (Float32)
