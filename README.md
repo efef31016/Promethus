@@ -17,19 +17,19 @@ This monitoring API can be integrated into various scenarios in airflow; first, 
 
 ### Promethus Response
 For example:
-| Metric Key                                | Value | Meaning            |
-|-------------------------------------------|-------|--------------------|
-| empty_check_www_XXXXXX_XXX                | 0.0   | Success            |
-| lose_check_customer_www_XXXXXX_XXX        | 1.0   | Failure, Alert     |
-| lose_check_customer_fail_num_www_XXXX_XXX | 0.0   | Success            |
-| lose_check_order_www_XXXXXX_XXX           | 1.0   | Failure, Alert     |
-| lose_check_order_fail_num_www_XXXXXX_XXX  | 0.0   | Success            |
-| lose_check_product_www_XXXXXX_XXX         | 1.0   | Failure, Alert     |
-| lose_check_product_fail_num_www_XXXXX_XXX | 0.0   | Success            |
-| empty_check_www_XXXXXXXX_XXXXXX           | 0.0   | Success            |
-| lose_check_customer_www_XXXXXXXX_XXXXXX   | 1.0   | Failure, Alert     |
-| lose_check_customer_fail_num_www_XXXXX_XX | 0.0   | Success            |
-| lose_check_order_www_XXXXXXX_XXXXXXX      | 1.0   | Failure, Alert     |
-| lose_check_order_fail_num_www_XXXXXXXX_XX | 0.0   | Success            |
-| lose_check_product_www_XXXXXXXXX_XXXXX    | 1.0   | Failure, Alert     |
-| lose_check_product_fail_num_www_XXXXX_XXX | 0.0   | Success            |
+| Metric Key                            | Value | Meaning         |
+|---------------------------------------|-------|-----------------|
+| empty_check_XXXXXX_XXX                | 0.0   | Success         |
+| lose_check_customer_XXXXXX_XXX        | 1.0   | Failure, Alert  |
+| lose_check_customer_fail_num_XXXX_XXX | 0.0   | Success         |
+| lose_check_order_XXXXXX_XXX           | 1.0   | Failure, Alert  |
+| lose_check_order_fail_num_XXXXXX_XXX  | 0.0   | Success         |
+| lose_check_product_XXXXXX_XXX         | 1.0   | Failure, Alert  |
+| lose_check_product_fail_num_XXXXX_XXX | 0.0   | Success         |
+| empty_check_XXXXXXXX_XXXXXX           | 0.0   | Success         |
+| lose_check_customer_XXXXXXXX_XXXXXX   | 1.0   | Failure, Alert  |
+| lose_check_customer_fail_num_XXXXX_XX | 0.0   | Success         |
+| lose_check_order_XXXXXXX_XXXXXXX      | 1.0   | Failure, Alert  |
+| lose_check_order_fail_num_XXXXXXXX_XX | 0.0   | Success         |
+| lose_check_product_XXXXXXXXX_XXXXX    | 1.0   | Failure, Alert  |
+| lose_check_product_fail_num_XXXXX_XXX | 0.0   | Success         |
